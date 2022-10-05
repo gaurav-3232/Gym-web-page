@@ -8,79 +8,9 @@
     
 
 </head>
-<link rel="stylesheet" href="css/style.css">
-<style>
-  /* CSS Reset */
-  body{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    background: url('img/bg.jpg');
-    height:100%;
-    width: 100%;
-
-  }
-  .left{
-    display: inline-block;
-    border: 2px solid red;
-    position: absolute;
-    left: 34px;
-    top: 20px;
-  }
-  .left img{
-    width: 100px;
-    height: 100px;
-    filter: invert(22%);
-
-  }
-  .left div{
-    text-align: center;
-  }
-  .mid{
-    display: block;
-    width: 33%;
-    margin: 20px auto;
-    border: 2px solid rgb(42, 135, 192);
-
-
-  }
-  .mid div{
-    text-align: center;
-  }
-  .right{
-    position: absolute;
-    right: 34px;
-    top: 20px;
-    display: inline-block;
-    border: 2px solid rgb(186, 222, 43);
-  }
-  .navbar{
-     display: inline-block;
-  }
-
-  .navbar li{
-    color: white;
-     display: inline-block;
-     font-size: 13px;
-  }
-
-  .navbar li a{
-   color: white;
-   text-decoration: none;
-   padding: 25px 12px;
-
-  }
-  .navbar li a:hover, .navbar li a.active{
-   text-decoration: underline;
-   color: aquamarine;
-
-  }
-  .btn{
-      margin: 0px 9px;
-      background-color: black;
-      color: white;
-  }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+ 
 <body>
     <header class="header">
         <!-- left for log -->
@@ -104,9 +34,34 @@
         </div>
         <!-- right box for navbar -->
         <div class="right">
-            <button class="btn">Call us now</button>
+            <button class="btn">Call Us Now</button>
             <button class="btn"> Email Us</button>    
         </div>
     </header>
+    <div class="container">
+        <h1>
+          join the best gym of mumbai  
+        </h1>
+        <form action="nonaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="enter your Age">
+                
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Gender">
+                
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your locaity">
+                
+            </div>
+            
+             <button class="btn">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
