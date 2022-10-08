@@ -1,0 +1,55 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('aboutus.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.mid{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.container{
+    border: 2px solid;
+    /* margin: 14px 5px; */
+    border-color: aliceblue;
+    border-radius: 10px;
+    width: 75%;
+    height: auto;
+    margin-left: 120px;
+}
+/* .container1{
+    border: 2px solid;
+    margin: 12px 28px;
+    border-color: red;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+} */
+.left{
+    text-align: left;
+    
+}
+.shadow{
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.footer{
+    background: rgb(86, 86, 86);
+    color: white;
+    padding: 5px;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+}

@@ -4,10 +4,11 @@ body {
   color: white;
   margin: 0px;
   padding: 0px;
-  background: url('img/bg.jpg');
+  background: url('gym1.jpg');
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  background-size: cover;
 
 }
 
@@ -21,8 +22,10 @@ body {
 
 .left img {
   width: 100px;
-  height: 100px;
+  height: auto;
   filter: invert(22%);
+  background-color: white;
+  border-radius: 50px 5px;
 
 }
 
@@ -70,16 +73,17 @@ body {
 
 .navbar li a:hover,
 .navbar li a.active {
-  text-decoration: underline;
-  color: azure;
+  /* text-decoration: ; */
+  color: rgb(244, 214, 46);
 
 }
 
 .btn {
   font-family: 'Baloo Bhai 2', cursive;
   margin: 0px 9px;
-  background-color: burlywood;
-  color: black;
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
   padding: 4px 14px;
   border: 2px solid darkgrey;
   border-radius: 10px;
@@ -89,14 +93,15 @@ body {
 }
 
 .btn:hover {
-  background-color: azure;
+  color: white;
+  opacity: 0.5;
 }
 
 .container {
   border: 2px solid green;
   margin: 106px 80px;
   padding: 75px;
-  width: 33%;
+  width: 69%;
   border-color: white;
   border-radius: 28px;
 }
@@ -116,7 +121,7 @@ body {
 }
 
 .container h1 {
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -125,4 +130,21 @@ body {
   text-size-adjust: 30px;
   padding: 2px;
   margin: 3px;
+}
+.shadow{
+  background-color: black;
+    opacity: 0.5;
+    /* height: inherit; */
+    width: 61%;
+    border-radius: 20px;
+}
+.footer{
+  background: rgb(30, 30, 30);
+  color: white;
+  padding: 7px;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  position: relative;
+  text-align: center;
 }
