@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.HeaderImg{
+    height:275px;
+    width:100%;
+    /* background:black; */
+    background-image:url('resource_Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: rgb(60, 58, 58);
+    color:white;
+    text-align: center;
+
+}
+
+p{
+    text-align:center;
+    margin-left:25%;
+    margin-right:25%;
+}
+.gallery{
+    display:flex;
+    background:white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+.img1{
+    width:47.5%;
+    height:200px;
+    /* justify-items: center; */
+    box-sizing:border-box
+
+}
+
